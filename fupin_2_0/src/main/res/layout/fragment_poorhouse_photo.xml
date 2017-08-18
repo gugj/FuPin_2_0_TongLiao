@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/top_title_strues"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical">
+
+    <!--<include layout="@layout/activity_title_toolbar"/>-->
+
+    <GridView
+        android:id="@id/gv_photo"
+        style="@style/gridview_style"
+        android:layout_margin="@dimen/margin_3"
+        android:horizontalSpacing="@dimen/layout_0.5"
+        android:verticalSpacing="@dimen/layout_0.5"/>
+
+    <RelativeLayout
+        android:id="@id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@id/tv_notic"
+            style="@style/text_style"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:singleLine="true"
+            android:text="@string/no_photo"/>
+    </RelativeLayout>
+
+</LinearLayout>

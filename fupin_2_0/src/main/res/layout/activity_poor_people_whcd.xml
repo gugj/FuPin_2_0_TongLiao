@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/top_title_strues"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title_toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_5"
+            android:padding="@dimen/padding_3" >
+
+            <lecho.lib.hellocharts.view.ColumnChartView
+                android:id="@+id/column_chart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </lecho.lib.hellocharts.view.ColumnChartView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/iv_lx_num"
+                    android:layout_width="@dimen/layout_20"
+                    android:layout_height="@dimen/layout_20"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/case_bing"
+                    android:contentDescription="@string/hello_world" />
+
+                <TextView
+                    style="@style/text_style"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_toRightOf="@+id/iv_lx_num"
+                    android:text="@string/num_lixiang"
+                    android:textSize="@dimen/textSize_13" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/iv_kg_num"
+                    android:layout_width="@dimen/layout_20"
+                    android:layout_height="@dimen/layout_20"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/case_other"
+                    android:contentDescription="@string/hello_world" />
+
+                <TextView
+                    style="@style/text_style"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_toRightOf="@+id/iv_kg_num"
+                    android:text="@string/num_kaigong"
+                    android:textSize="@dimen/textSize_13" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/iv_wg_num"
+                    android:layout_width="@dimen/layout_20"
+                    android:layout_height="@dimen/layout_20"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/case_can"
+                    android:contentDescription="@string/hello_world" />
+
+                <TextView
+                    style="@style/text_style"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_toRightOf="@+id/iv_wg_num"
+                    android:text="@string/num_wangong"
+                    android:textSize="@dimen/textSize_13" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/iv_totle"
+                    android:layout_width="@dimen/layout_20"
+                    android:layout_height="@dimen/layout_20"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/case_bing"
+                    android:contentDescription="@string/hello_world" />
+
+                <TextView
+                    style="@style/text_style"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_toRightOf="@+id/iv_totle"
+                    android:text="@string/totle"
+                    android:textSize="@dimen/textSize_13" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/iv_sqbf"
+                    android:layout_width="@dimen/layout_20"
+                    android:layout_height="@dimen/layout_20"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/case_other"
+                    android:contentDescription="@string/hello_world" />
+
+                <TextView
+                    style="@style/text_style"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_toRightOf="@+id/iv_sqbf"
+                    android:text="@string/sqbf"
+                    android:textSize="@dimen/textSize_13" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/iv_sjbf"
+                    android:layout_width="@dimen/layout_20"
+                    android:layout_height="@dimen/layout_20"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/case_can"
+                    android:contentDescription="@string/hello_world" />
+
+                <TextView
+                    style="@style/text_style"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_toRightOf="@+id/iv_sjbf"
+                    android:text="@string/sjbf"
+                    android:textSize="@dimen/textSize_13" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_dibaowubao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/iv_dibao"
+                    android:layout_width="@dimen/layout_20"
+                    android:layout_height="@dimen/layout_20"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/case_bing"
+                    android:contentDescription="@string/hello_world" />
+
+                <TextView
+                    style="@style/text_style"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_toRightOf="@+id/iv_dibao"
+                    android:text="低保贫困户"
+                    android:textSize="@dimen/textSize_13" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/iv_wubao"
+                    android:layout_width="@dimen/layout_20"
+                    android:layout_height="@dimen/layout_20"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/case_other"
+                    android:contentDescription="@string/hello_world" />
+
+                <TextView
+                    style="@style/text_style"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_toRightOf="@+id/iv_wubao"
+                    android:text="五保贫困数"
+                    android:textSize="@dimen/textSize_13" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/iv_xs_wubao"
+                    android:layout_width="@dimen/layout_20"
+                    android:layout_height="@dimen/layout_20"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/case_can"
+                    android:contentDescription="@string/hello_world" />
+
+                <TextView
+                    style="@style/text_style"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_toRightOf="@+id/iv_xs_wubao"
+                    android:text="享受五保人"
+                    android:textSize="@dimen/textSize_13" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/iv_xs_dibao"
+                    android:layout_width="@dimen/layout_20"
+                    android:layout_height="@dimen/layout_20"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/case_xs"
+                    android:contentDescription="@string/hello_world" />
+
+                <TextView
+                    style="@style/text_style"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_toRightOf="@+id/iv_xs_dibao"
+                    android:text="享受低保人"
+                    android:textSize="@dimen/textSize_13" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

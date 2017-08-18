@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.roch.fupin_2_0"
+    android:installLocation="auto"
+    android:versionCode="19"
+    android:versionName="2.1.9" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 百度地图权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCES_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- <instrumentation -->
+    <!-- android:name="android.test.InstrumentationTestRunner" -->
+    <!-- android:targetPackage="com.roch.fupin" > -->
+    <!-- </instrumentation> -->
+
+    <application
+        android:name="com.roch.fupin.app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.roch.fupin.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 添加开发者key -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="lrgEsaIVthc0SROkweknUa7Ps01xhPvo" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+
+        <activity
+            android:name="com.roch.fupin.MoreActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <!-- 贫困户帮扶记录的activity注册信息 -->
+        <activity android:name="com.roch.fupin.ActivityBangFuJiLuHelpDetail">
+        </activity>
+        
+        <activity
+            android:name="com.roch.fupin.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.PoorQiXianActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.MineActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.BaseActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.PoorHouseActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.PoorHouseDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.ImagePagerActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoInternetActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.PoorFamilyPeopleDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.XiangMuZhaoPianActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.PoorVillageActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.PoorVillageDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.PoorVillageAccountPrintDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.HelpPeopleActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/help_people_searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.roch.fupin.HelpPeoplePoorFamilyActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.HelpCompanyActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/help_company_searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.roch.fupin.HelpCompanyPoorVillageActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.InformationActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.InformationDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoticBoardActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectMinZhengJuActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectMinZhengJuDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectNongWeiActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectNongWeiDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectJiaoTiJuDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectJiaoTiJuActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectCanLianActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.roch.fupin.CanLian_Wfgz_Fragment_Detail_Activity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.CanLian_Jypx_Fragment_Activity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectFuLianDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectFuLianActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectJinDuTiXingActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectCaiZhengJuDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectCaiZhengJuActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectZhuJianJuActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectZhuJianJuDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectRenLaoJuActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectRenLaoJuDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectFuPinBanActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.roch.fupin.FuPinBanPxryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.FuPinBanXmxxActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectLinYeJuActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectWeiJiWeiActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectWeiJiWeiDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectLinYeJu_LXJJ_DetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.NoPoorProjectLinYeJu_DLLH_DetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.SettingActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.SelectPhotoActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.PoorPeopleStatisticsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.PoorPeopleWHCDActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.PoorPeopleCaseActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.GalleryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.CityChooesActivity1"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.UploadPhotoActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.PoorPeopleCaseDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.PoorPeopleBFCSActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.PoorPeopleCaseYXActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.roch.fupin.PoorPeopleTPQKActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.roch.fupin.PoorQiXianDetailActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.FuPinXinWenActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.ZuiXinFuPinZhengCeActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.FuPinXinWenDetailActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.ZuiXinFuPinZhengCeDetailActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.QuanShiFuPinDaXingHuoDongActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.FuPinHuoDongJiZaiDetailActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.SheHuiFuPinXinXiActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.SheHuiFuPinXinXiDetailActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.HangYeFuPinXinXiActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.HangYeFuPinXinXiDetailActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.PinKunHuGongJiActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.PinKunHuGongJiDetailActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.ZhuanXiangZiJinGuanLiActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.ZhuanXiangZiJinGuanLiDetailActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.XinXiFanKuiActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.XinXiFanKuiDetailActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.ZhengCeZiXunActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.ZhengCeZiXunDetailActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.LiuGeYiPiTongJiActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.LiuGeYiPiTongJiDetailActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.GongZuoRiZhiActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.GongZuoRiZhiDetailActivity">
+        </activity>
+        <activity android:name="com.roch.fupin.FanKuiGuanLiActivity">
+    </activity>
+        <activity android:name="com.roch.fupin.FanKuiGuanLiDetailActivity">
+    </activity>
+        <activity android:name="com.roch.fupin.JingYanJiaoLiuActivity">
+    </activity>
+        <activity android:name="com.roch.fupin.JingYanJiaoLiuDetailActivity">
+    </activity>
+        <activity android:name="com.roch.fupin.KaoQinXinXiActivity">
+    </activity>
+        <activity android:name="com.roch.fupin.KaoQinXinXiDetailActivity">
+    </activity>
+        <activity android:name="com.roch.fupin.LaoDongNengLiLeiXingDetailActivity">
+    </activity>
+        <activity android:name="com.roch.fupin.PinKunHuShuXingDetailActivity">
+    </activity>
+        <activity android:name="com.roch.fupin.PinKunCunShuXingDetailActivity">
+    </activity>
+        <activity android:name="com.roch.fupin.FuPinZhuanXiangZiJinTongJiActivity">
+    </activity>
+        <activity android:name="com.roch.fupin.WuGongQingKuangTongJiDetailActivity">
+    </activity>
+        <activity android:name="com.roch.fupin.ZhuanXiangZiJinGuanLiDetail3Activity">
+    </activity>
+        <activity android:name="com.roch.fupin.PoorHouseDetailActivity_SaoYiSao">
+    </activity>
+        <activity android:name="com.roch.fupin.SearchActivity">
+    </activity>
+        <activity android:name="com.roch.fupin.view.UpdatePassWordActivity">
+    </activity>
+        <activity android:name="com.roch.fupin.AddBangFuJiLuActivity">
+    </activity>
+        <activity android:name="com.roch.fupin.KaoQinXinXiActivityDetail_New">
+    </activity>
+        <uses-library android:name="android.test.runner" />
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.roch.fupin_2_0"></instrumentation>
+    
+</manifest>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray_b3b3b3">#b3b3b3</color>
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- 主题红色 -->
+    <color name="theme_red">#da0000</color>
+    <!-- tab normalselect -->
+    <color name="tab_press_selecor">#bc0000</color>
+    <color name="black_666666">#666666</color>
+    <color name="black_515151">#515151</color>
+    <color name="black_333333">#333333</color>
+    
+    
+    <color name="gray_line">#e8e8e8</color>
+    <color name="gray_f2f2f0">#f2f2f0</color>
+    <color name="gray_878787">#878787</color>
+    <color name="gray_999999">#999999</color>
+    <color name="gray_c0c0c0">#C0C0C0</color>
+    
+    <color name="orange_ff5000">#ff5000</color>
+    <color name="orange_fa9233">#fa9233</color>
+    
+    <color name="green_97ce01">#97ce01</color>
+    
+    <color name="bule_01b8ec">#01b8ec</color>
+    <color name="bule_8f8f8f">#8f8f8f</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+  
+
+</resources>

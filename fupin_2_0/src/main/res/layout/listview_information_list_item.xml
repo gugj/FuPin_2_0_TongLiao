@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_5"
+    android:paddingLeft="@dimen/padding_20"
+    android:paddingRight="@dimen/padding_20"
+    android:paddingTop="@dimen/padding_5" >
+
+    <TextView
+        android:id="@id/tv_title"
+        style="@style/text_style"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/bule_155bbb" />
+
+    <TextView
+        android:id="@id/tv_content"
+        style="@style/text_style"
+        android:layout_marginTop="@dimen/margin_10"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textSize_13" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@id/tv_name"
+            style="@style/text_style"
+            android:textColor="@color/gray_999999"
+            android:textSize="@dimen/textSize_13"
+            android:text="李红菊"/>
+
+        <TextView
+            android:id="@id/tv_date"
+            style="@style/text_style"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/gray_999999"
+            android:textSize="@dimen/textSize_13"
+            android:text="2016-11-22 13:02:23"/>
+
+        <TextView
+            android:id="@+id/tv_replaycount"
+            style="@style/text_style"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/gray_999999"
+            android:textSize="@dimen/textSize_13"
+            android:text="回复数（48）"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>

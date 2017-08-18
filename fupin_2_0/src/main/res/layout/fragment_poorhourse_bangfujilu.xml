@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/top_title_strues"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listView_bfjl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></ListView>
+
+    <RelativeLayout
+        android:id="@+id/rl_no_bangfujilu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@id/tv_notic"
+            style="@style/text_style"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:singleLine="true"
+            android:text="还没有帮扶记录，去上传吧"/>
+    </RelativeLayout>
+
+</LinearLayout>

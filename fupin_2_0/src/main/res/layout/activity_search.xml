@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/top_title_strues"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title_toolbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/listview_house"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_45"
+            android:visibility="gone" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_village"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_45"
+            android:visibility="gone" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_help_people"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_45"
+            android:visibility="gone" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_help_companey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_45"
+            android:visibility="gone" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_shuili_jiaotong_xincunban"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_45"
+            android:visibility="gone" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_nongwei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_45"
+            android:visibility="gone" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_dllh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_45"
+            android:visibility="gone" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_lxjj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_45"
+            android:visibility="gone" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_wfgz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_45"
+            android:visibility="gone" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_jypx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_45"
+            android:visibility="gone" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_renlaoju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_45"
+            android:visibility="gone" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_zhujianju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_45"
+            android:visibility="gone" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_weijiwei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_45"
+            android:visibility="gone" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_fupinban"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_45"
+            android:visibility="gone" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_fulian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_45"
+            android:visibility="gone" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_caizhengju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_45"
+            android:visibility="gone" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_jindutixing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_45"
+            android:visibility="gone" >
+        </ListView>
+    </FrameLayout>
+
+</FrameLayout>

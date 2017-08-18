@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.roch.fupin.MainActivity" >
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/sousuo_03"
+        android:title="@string/search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/select"
+        android:title="@string/filter"
+        app:showAsAction="always"/>
+
+</menu>

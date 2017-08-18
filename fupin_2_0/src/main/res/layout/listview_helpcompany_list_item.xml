@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@id/tv_company"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10" >
+
+            <TextView
+                android:id="@id/tv_name"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ico_cardnum"
+                android:drawablePadding="@dimen/padding_3"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:textColor="@color/gray_878787"
+                android:textSize="@dimen/textSize_13" />
+
+            <TextView
+                android:id="@id/tv_phone"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:drawablePadding="@dimen/padding_3"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ico_phone"
+                android:textColor="@color/gray_878787" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10" >
+
+            <TextView
+                android:id="@+id/tv_xingzhengqu"
+                style="@style/text_style"
+                android:singleLine="true"
+                android:textColor="@color/gray_878787"
+                android:textSize="@dimen/textSize_13" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_20"
+        android:contentDescription="@string/hello_world"
+        android:src="@drawable/jinru" />
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:oncon="http://schemas.android.com/apk/res/com.sitech.oncon.barcode"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <com.zxing.view.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="45dip"
+    android:background="@drawable/common_title_bg"
+    android:id="@+id/common_title_RL"
+    >
+    	<TextView
+    		android:id="@+id/common_title_TV_left"  
+    		android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+    		android:layout_centerVertical="true"
+			android:layout_alignParentLeft="true"
+    		android:clickable="true" 
+    		android:background="@drawable/ic_back"
+    		/>
+    	
+    	<TextView
+    		android:id="@+id/common_title_TV_right"  
+    		android:background="@drawable/barcode_gallery"
+    		android:layout_width="60dip"
+    		android:layout_height="40dip"
+    		android:layout_centerVertical="true" 
+    		android:layout_alignParentRight="true"
+    		android:layout_marginRight="5dip"
+    		android:clickable="true" 
+    		android:textSize="20sp"
+			android:visibility="gone"
+    		/>
+
+		<TextView
+		    android:id="@+id/common_title_TV_center"
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true"
+		    android:layout_centerVertical="true"
+		    android:ellipsize="middle"
+		    android:text="二维码扫描"
+		    android:textSize="22sp"
+		    android:singleLine="true" />
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/status_view"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@color/transparent"
+            android:text="@string/msg_default_status"
+            android:textSize="15sp"
+            android:textColor="@color/status_text" />
+    </LinearLayout>
+
+</FrameLayout>

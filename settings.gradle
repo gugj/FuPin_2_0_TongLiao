@@ -1,0 +1,3 @@
+include ':my_library_baidumap', ':library', ':gridview_master_listview', ':ErWeiMaSaoMiao'
+include ':hellochartlibary'
+include ':fupin_2_0'

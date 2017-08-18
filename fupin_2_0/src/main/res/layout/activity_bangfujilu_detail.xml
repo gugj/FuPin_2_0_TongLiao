@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/top_title_strues"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_10"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@id/tv_msg_title"
+                    style="@style/text_style"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1.5"
+                    android:textColor="@color/color_303030"
+                    android:textSize="@dimen/textSize_21" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_15"
+                     >
+                    <TextView
+                        android:id="@+id/tv_name"
+                        style="@style/text_style"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="@dimen/textSize_14"/>
+                    <TextView
+                        android:id="@id/tv_date"
+                        style="@style/text_style"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:textSize="@dimen/textSize_14" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_15"
+                    >
+                    <TextView
+                        android:id="@+id/tv_location"
+                        style="@style/text_style"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:textSize="@dimen/textSize_14"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp">
+                    <EditText
+                        android:id="@+id/et_bfjl_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_edittext"
+                        android:gravity="left"
+                        android:padding="10dp"/>
+                </LinearLayout>
+
+                <GridView
+                    android:id="@id/gv_photo"
+                    style="@style/gridview_style"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_margin="@dimen/margin_3"
+                    android:horizontalSpacing="@dimen/layout_0.5"
+                    android:verticalSpacing="@dimen/layout_0.5"/>
+            </LinearLayout>
+
+            <WebView
+                android:id="@+id/wv_notic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_30"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginRight="@dimen/margin_10"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

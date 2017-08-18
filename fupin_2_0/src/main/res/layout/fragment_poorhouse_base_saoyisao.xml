@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            style="@style/layout_item"
+            android:layout_marginTop="@dimen/margin_10"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/tv1"
+                style="@style/poor_house_left_text_style"
+                android:text="所属行政区" />
+
+            <!--style="@style/poor_house_right_text_style"
+            android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/tv1"
+                android:textSize="@dimen/textSize_15"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"-->
+            <TextView
+                style="@style/poor_house_right_text_style"
+                android:id="@+id/tv_xingzhengqu"
+                android:singleLine="true"
+                android:text="l;knfldadftyetyertewrwgfhdgtryrwtwd"/>
+        </RelativeLayout>
+
+        <include layout="@layout/layout_view_horizontal" />
+
+        <RelativeLayout
+            style="@style/layout_item"
+            android:background="@color/white" >
+
+            <TextView
+                style="@style/poor_house_left_text_style"
+                android:text="@string/poor_condition" />
+
+            <TextView
+                android:id="@id/tv_poor"
+                style="@style/poor_house_right_text_style" />
+        </RelativeLayout>
+
+        <include layout="@layout/layout_view_horizontal" />
+
+        <RelativeLayout
+            style="@style/layout_item"
+            android:background="@color/white" >
+
+            <TextView
+                style="@style/poor_house_left_text_style"
+                android:text="@string/house_boss_phone" />
+
+            <TextView
+                android:id="@id/tv_phone"
+                style="@style/poor_house_right_text_style" />
+        </RelativeLayout>
+
+        <include layout="@layout/layout_view_horizontal" />
+
+        <RelativeLayout
+            style="@style/layout_item"
+            android:background="@color/white" >
+
+            <TextView
+                style="@style/poor_house_left_text_style"
+                android:text="@string/family_people_num" />
+
+            <TextView
+                android:id="@id/tv_num"
+                style="@style/poor_house_right_text_style" />
+        </RelativeLayout>
+
+        <include layout="@layout/layout_view_horizontal" />
+
+        <RelativeLayout
+            style="@style/layout_item"
+            android:background="@color/white" >
+
+            <TextView
+                style="@style/poor_house_left_text_style"
+                android:text="@string/poorfamilypropert" />
+
+            <TextView
+                android:id="@+id/tv_poorfamilypropert"
+                style="@style/poor_house_right_text_style" />
+        </RelativeLayout>
+
+        <include layout="@layout/layout_view_horizontal" />
+
+        <RelativeLayout
+            style="@style/layout_item"
+            android:background="@color/white" >
+
+            <TextView
+                style="@style/poor_house_left_text_style"
+                android:text="@string/no_poor_plan" />
+
+            <TextView
+                android:id="@id/tv_plan"
+                style="@style/poor_house_right_text_style" />
+        </RelativeLayout>
+
+        <include layout="@layout/layout_view_horizontal" />
+
+        <RelativeLayout
+            style="@style/layout_item"
+            android:background="@color/white" >
+
+            <TextView
+                style="@style/poor_house_left_text_style"
+                android:text="@string/poor_cause" />
+
+            <TextView
+                android:id="@id/tv_cause"
+                style="@style/poor_house_right_text_style" />
+        </RelativeLayout>
+
+        <include layout="@layout/layout_view_horizontal" />
+
+        <RelativeLayout
+            style="@style/layout_item"
+            android:background="@color/white" >
+
+            <TextView
+                style="@style/poor_house_left_text_style"
+                android:text="其他致贫原因" />
+
+            <TextView
+                android:id="@+id/tv_cause_qita"
+                style="@style/poor_house_right_text_style" />
+        </RelativeLayout>
+
+        <include layout="@layout/layout_view_horizontal" />
+
+        <RelativeLayout
+            style="@style/layout_item"
+            android:background="@color/white" >
+
+            <TextView
+                style="@style/poor_house_left_text_style"
+                android:text="是否军烈属" />
+
+            <TextView
+                android:id="@+id/tv_junlieshu"
+                style="@style/poor_house_right_text_style" />
+        </RelativeLayout>
+
+        <include layout="@layout/layout_view_horizontal" />
+
+    </LinearLayout>
+
+</ScrollView>

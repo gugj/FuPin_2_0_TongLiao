@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title_toolbar" />
+
+    <TextView
+        style="@style/text_style"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10"
+        android:text="@string/no_internet_notic"
+        android:textColor="@color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_0.5"
+        android:layout_margin="@dimen/margin_10"
+        android:background="@color/gray_878787" />
+
+    <TextView
+        style="@style/text_style"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10"
+        android:lineSpacingExtra="@dimen/layout_10"
+        android:text="@string/one_notic"
+        android:textColor="@color/black" />
+
+    <TextView
+        style="@style/text_style"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10"
+        android:lineSpacingExtra="@dimen/layout_10"
+        android:text="@string/two_notic"
+        android:textColor="@color/black" />
+
+</LinearLayout>

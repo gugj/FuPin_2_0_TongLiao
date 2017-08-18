@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BarCodeTestActivity!</string>
+    <!--<string name="app_name">BarCodeTest</string>-->
+    <string name="app_name">生成并扫描</string>
+    <string name="msg_default_status">请将二维码置于屏幕中间(若光线暗请按音量的增加键)。</string>
+
+</resources>

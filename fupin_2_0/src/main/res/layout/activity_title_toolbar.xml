@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    app:titleTextAppearance="@style/ToolbarTitle" >
+
+    <ImageView
+        android:id="@+id/iv_saoyisao"
+        style="@style/text_style"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/saoyisao"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@id/tv_title"
+        style="@style/title_text"
+        android:layout_gravity="center"
+        android:text="@string/home" />
+
+    <TextView
+        android:id="@id/tv_city"
+        style="@style/text_style"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="@dimen/margin_10"
+        android:drawablePadding="@dimen/padding_3"
+        android:drawableRight="@drawable/city_choose"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@id/tv_filter"
+        style="@style/text_style"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="@dimen/margin_10"
+        android:text="@string/filter"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_sure"
+        style="@style/text_style"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="@dimen/margin_10"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_sousuo"
+        style="@style/text_style"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="@dimen/margin_15"
+        android:drawablePadding="@dimen/padding_3"
+        android:text="查询"
+        android:textColor="@color/white"
+        android:paddingRight="5dp"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/iv_qiandao"
+        style="@style/text_style"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/qiandao"
+        android:paddingRight="5dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_xiangmu_photo"
+        style="@style/text_style2"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="@dimen/margin_10"
+        android:textColor="@color/white"
+        android:text="项目照片"
+        android:visibility="gone" />
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/top_title_strues"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5" >
+
+        <RelativeLayout
+            android:id="@id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_10" >
+
+            <com.roch.fupin.view.DragMoreGrid
+                android:id="@id/gv_menu"
+                style="@style/gridview_style"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbars="vertical" />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

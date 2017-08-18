@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_2">#FFFFFF</color>
+    <!-- 获取验证码背景色 -->
+    <color name="bg_code">#00C5A3</color>
+    <!-- 点击后背景色 -->
+    <color name="bg_code_after">#2BBE6A</color>
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="transparent_half">#23000000</color>
+    <color name="bule_155bbb">#155bbb</color>
+
+    <!-- 以前的 -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_line">#e8e8e8</color>
+    <color name="color_d1d1d1">#d1d1d1</color>
+    <color name="color_cb8600">#cb8600</color>
+    <color name="color_a0a0a0">#a0a0a0</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_333333">#333333</color>
+    <color name="color_ffa800">#ffa800</color>
+    <color name="color_929292">#929292</color>
+    <color name="color_555555">#555555</color>
+    <color name="color_5d5e5f">#5d5e5f</color>
+    <color name="color_576b95">#576b95</color>
+    <color name="green_00cc99">#00cc99</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_303030">#303030</color>
+    <color name="color_333333">#333333</color>
+    <color name="mine_item_top_line">#f2f2f2</color>
+    <color name="mine_item_top_line_gary">#d7d7d7</color>
+    <!-- popu -->
+    <color name="popup_main_background">#b0000000</color>
+    <color name="choose_eara_item_press_color">#f4f4f4</color>
+    <!-- dialog 蓝色按钮字体 -->
+    <color name="dialog_bule">#0079ff</color>
+    <!-- 天蓝色 -->
+    <color name="color_00aff0">#00aff0</color>
+    <!-- 天蓝色稍微深点 -->
+    <color name="color_00afe4">#00afe4</color>
+    <color name="color_ace0f3">#ace0f3</color>
+    <!-- 主题色 -->
+    <color name="color_145bba">#145bba</color>
+    <color name="color_0093f0">#0093f0</color>
+    <!-- 灰白的 -->
+    <color name="ashen">#f5f5f5</color>
+    <color name="orange_f7cc79">#f7cc79</color>
+    <!-- 橘黄色 -->
+    <color name="orange">#FFB350</color>
+    <!-- 选项卡隐藏时字体颜色 -->
+    <color name="zangqing">#bae9e3</color>
+    <!-- 暗灰色 -->
+    <color name="my_home_text_anhui">#8e9295</color>
+    <color name="orange_ff6633">#ff6633</color>
+    <color name="albumback">#E1E0DE</color>
+    <color name="plugin_camera_black">#000000</color>
+    <color name="gainsboro">#dcdcdc</color><!-- 淡灰色 -->
+    <!-- 饼图颜色值 -->
+    <color name="magenta">#ff00ff</color><!-- 红紫色 -->
+    <color name="peachpuff">#ffdab9</color><!--桃色 --> 
+    <color name="sandybrown">#f4a460</color><!--沙褐色 --> 
+    <color name="plum">#dda0dd</color><!--洋李色 --> 
+    <color name="darkkhaki">#bdb76b</color><!--暗黄褐色 --> 
+    <color name="greenyellow">#adff2f</color><!--黄绿色 --> 
+    <color name="zishenfazhanli">#3dff2f</color>
+    <color name="jiaotongtiaojian">#3d772f</color>
+    <color name="aquamarine">#7fffd4</color><!--碧绿色 -->
+    <color name="cornflowerblue">#6495ed</color><!--菊兰色 --> 
+
+</resources>

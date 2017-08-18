@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_tudi_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_40"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20" >
+
+        <TextView
+            style="@style/text_style"
+            android:layout_centerVertical="true"
+            android:text="@string/tudi_info"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/text_style"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/jinru" />
+    </RelativeLayout>
+
+    <include layout="@layout/layout_view_horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/rl_renkou_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_40"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20" >
+
+        <TextView
+            style="@style/text_style"
+            android:layout_centerVertical="true"
+            android:text="@string/renkou_info"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/text_style"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/jinru" />
+    </RelativeLayout>
+
+    <include layout="@layout/layout_view_horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/rl_shbz_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_40"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20" >
+
+        <TextView
+            style="@style/text_style"
+            android:layout_centerVertical="true"
+            android:text="@string/shbz_info"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/text_style"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/jinru" />
+    </RelativeLayout>
+
+    <include layout="@layout/layout_view_horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/rl_cjdl_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_40"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20" >
+
+        <TextView
+            style="@style/text_style"
+            android:layout_centerVertical="true"
+            android:text="@string/cjdl_info"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/text_style"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/jinru" />
+    </RelativeLayout>
+
+    <include layout="@layout/layout_view_horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/rl_ysaq_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_40"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20" >
+
+        <TextView
+            style="@style/text_style"
+            android:layout_centerVertical="true"
+            android:text="@string/ysaq_info"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/text_style"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/jinru" />
+    </RelativeLayout>
+
+    <include layout="@layout/layout_view_horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/rl_wfgz_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_40"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20" >
+
+        <TextView
+            style="@style/text_style"
+            android:layout_centerVertical="true"
+            android:text="@string/wfgz_info"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/text_style"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/jinru" />
+    </RelativeLayout>
+
+    <include layout="@layout/layout_view_horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/rl_tscyzs_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_40"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20" >
+
+        <TextView
+            style="@style/text_style"
+            android:layout_centerVertical="true"
+            android:text="@string/tscyzs_info"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/text_style"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/jinru" />
+    </RelativeLayout>
+
+    <include layout="@layout/layout_view_horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/rl_ws_and_jhsy_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_40"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20" >
+
+        <TextView
+            style="@style/text_style"
+            android:layout_centerVertical="true"
+            android:text="@string/ws_and_jhsy_info"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/text_style"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/jinru" />
+    </RelativeLayout>
+
+    <include layout="@layout/layout_view_horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/rl_whjs_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_40"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20" >
+
+        <TextView
+            style="@style/text_style"
+            android:layout_centerVertical="true"
+            android:text="@string/whjs_info"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/text_style"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/jinru" />
+    </RelativeLayout>
+
+    <include layout="@layout/layout_view_horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/rl_pkcxxh_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_40"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20" >
+
+        <TextView
+            style="@style/text_style"
+            android:layout_centerVertical="true"
+            android:text="@string/pkcxxh_info"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/text_style"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/jinru" />
+    </RelativeLayout>
+
+    <include layout="@layout/layout_view_horizontal" />
+
+</LinearLayout>

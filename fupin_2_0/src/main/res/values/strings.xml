@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">通辽扶贫</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_login">您还没有登陆</string>
+    <string name="home">快捷菜单</string>
+    <string name="tzgg">通知公告</string>
+    <string name="fpdx">通知公告</string>
+    <string name="bfzt">帮扶主体</string>
+    <string name="tpgjxm">脱贫攻坚项目</string>
+    <string name="tjbb">统计报表</string>
+    <string name="more">更多</string>
+    <string name="find">发现</string>
+    <string name="mine">我的</string>
+    <string name="search">搜索</string>
+    <string name="delete">删除</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="no_internet">世界上最遥远的距离就是没网，点击设置</string>
+    <string name="no_internet_title">无网络连接</string>
+    <string name="no_internet_notic">请按照如下方法检查网络连接</string>
+    <string name="one_notic">1.打开手机“设置”并把“Wi-Fi”开关保持开启状态</string>
+    <string name="two_notic">2.打开手机“设置”-“通用”-“蜂窝移动网络”，并把“蜂窝移动数据”开关保持开启状态</string>
+    <string name="login_notic">服务器验证失败，请重新登陆！</string>
+    <string name="ok">确&#12288;定</string>
+    <string name="douhao">，</string>
+    <string name="no_data">没有找到符合条的数据</string>
+    <string name="search_hini">请输入户主姓名</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+    <string name="setting">设置</string>
+    <string name="version_update">修改服务地址</string>
+    <string name="clear">清除缓存</string>
+    <string name="zhengzhou">郑州市</string>
+    <string name="input_city_or_pinyin">请输入城市名或拼音</string>
+    <string name="sorry_not_city">对不起，没有找到相关城市</string>
+    <string name="newly_city">最近访问城市</string>
+    <string name="finish">完成</string>
+    <string name="server_address">请输入服务地址及端口号</string>
+    <string name="server_setting">设置端口号</string>
+    <string name="login_out">退出登录</string>
+    <string name="duty_person">帮扶责任人</string>
+    <string name="duty_company">帮扶单位</string>
+    <string name="call_phone">呼叫</string>
+    <string name="save_phone">保存至电话簿</string>
+    <string name="username_hini">请输入用户名</string>
+    <string name="password_hini">请输入密码</string>
+    <string name="notic">提示</string>
+    <string name="upload">上传</string>
+    <string name="loading">等待中...</string>
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+    
+    <!-- 帮扶措施统计 -->
+    <string name="xingzhengqu">行政区</string>
+    <string name="cjpx">参加培训</string>
+    <string name="hs">户数</string>
+    <string name="rs">人数</string>
+    <string name="jy">就业</string>
+    <string name="dhzshs">到户增收</string>
+    <string name="cyfchs">产业扶持</string>
+    <string name="fpbq">扶贫搬迁</string>
+    <string name="tpd">脱贫贷</string>
+    
+    <!-- 教体局 -->
+    <string name="jt_rs">资助人数</string>
+    <string name="jt_je">资助金额</string>
+    <string name="jt_gzrs">高中资助人数</string>
+    <string name="jt_gxrs">高校资助人数</string>
+    <string name="jt_yjcrs">义教救助（初中）人数</string>
+    <string name="jt_yjxrs">义教救助（小学）人数</string>
+    <string name="jt_zzrs">中职资助人数</string>
+    <string name="jt_xqjyje">学前教育资助金额(元)</string>
+    <string name="jt_gzje">高中资助金额(元)</string>
+    <string name="jt_gxje">高校资助金额(元)</string>
+    <string name="jt_yjcje">义教救助(初中金额)(元)</string>
+    <string name="jt_yjxje">义教救助(小学金额)(元)</string>
+    <string name="jt_zzje">中职资助金额(元)</string>
+    <string name="jt_xqjyrs">学前教育资助人数</string>
+    
+    <!-- 民政局 -->
+    <string name="db_hushu">低保户数</string>
+    <string name="db_renshu">低保人数</string>
+    <string name="db_jine">低保金额(元)</string>
+    <string name="wb_hushu">五保户数</string>
+    <string name="wb_renshu">五保人数</string>
+    <string name="wb_jine">五保金额(元)</string>
+    <string name="dd_hushu">兜底户数</string>
+    <string name="dd_renshu">兜底人数</string>
+    <string name="dd_jine">兜底金额(元)</string>
+    <string name="quyu">乡镇</string>
+    
+    <!-- 脱贫情况 -->
+    <string name="ddrjcsrzdbz">达到人均纯收入最低标准</string>
+    <string name="no_ddrjcsrzdbz">未达到人均纯收入最低标准</string>
+    
+    <!-- 因学致贫 -->
+	<string name="yey">幼儿园</string>
+	<string name="xxs">小学生</string>
+	<string name="czs">初中生</string>
+	<string name="gzs">高中生</string>
+	<string name="zz">职专</string>
+	<string name="dxs">大学生</string>
+	
+    <!-- 表头 -->
+    <string name="tab_zc">政策性收入</string>
+    <string name="tab_ny">农业收入</string>
+    <string name="tab_ly">林业收入</string>
+    <string name="tab_gz">工作收入</string>
+    <string name="tab_diLiBaoHu">地力保护补贴</string>
+    <string name="tab_jy_sr">生产经营性支出</string>
+    <string name="tab_cyfc">产业扶持</string>
+    <string name="tab_dlzs">到户增收</string>
+    <string name="tab_jz">捐赠慰问</string>
+    <string name="tab_qt">其他转移</string>
+    <string name="tab_z">总收入</string>
+    <string name="tab_rj">人均收入</string>
+
+    <!-- 贫困户照片 -->
+    <string name="no_photo">还没有贫困户照片，去上传吧</string>
+    <string name="up_load_photo">上传照片</string>
+    <string name="cream">拍摄</string>
+    <string name="select">选择</string>
+
+    <!-- 登陆 -->
+    <string name="username">用户名：</string>
+    <string name="password">密&#12288;码：</string>
+    <string name="login">登&#12288;录</string>
+
+    <!-- 我的 -->
+    <string name="name">名字</string>
+    <string name="title">技术职称</string>
+    <string name="sex">性别</string>
+    <string name="birthday">出生日期</string>
+    <string name="phone">电话</string>
+    <string name="highestdegree">学历</string>
+    <string name="job">就业</string>
+    <string name="train">培训</string>
+    <!-- 贫困户 -->
+    <string name="house_boss">户主：</string>
+    <string name="family_num">人数：</string>
+    <string name="family_address">住址：</string>
+    <string name="poor_plan">项目：</string>
+    <string name="base">基本情况</string>
+    <string name="bangfujilu">帮扶记录</string>
+    <string name="poor_condition">脱贫情况</string>
+    <string name="house_boss_phone">户主电话</string>
+    <string name="family_people_num">家庭人口数</string>
+    <string name="poorfamilypropert">贫困户属性</string>
+    <string name="ifooperative">是否参与农民专业合作社</string>
+    <string name="productionpower">是否通生产用电</string>
+    <string name="housesecurity">房屋安全属性</string>
+    <string name="ifagreetomove">是否同意搬迁</string>
+    <string name="housingtype">房屋类型</string>
+    <string name="ifnoroom">是否有住房</string>
+    <string name="house_is_poor">住房是否安全</string>
+    <string name="water_is_aq">饮水是否安全</string>
+    <string name="woter_is_kn">饮水是否困难</string>
+    <string name="house_is_d">家中是否通电</string>
+    <string name="house_area">住房面积(平方米)</string>
+    <string name="no_poor_plan">帮扶措施</string>
+    <string name="poor_cause">主要致贫原因</string>
+    <string name="job_people_num">就业人数</string>
+    <string name="famliy_people">家庭成员</string>
+    <string name="zeren_people">帮扶责任人</string>
+    <string name="cunzhang">村长</string>
+    <string name="cunzhang_phone">村长电话</string>
+    <string name="cunzhishu">村支书</string>
+    <string name="cunzhishu_phone">村支书电话</string>
+    <string name="first_shuji">第一书记</string>
+    <string name="first_shuji_phone">第一书记电话</string>
+    <!-- 贫困村 -->
+    <string name="help_company">帮扶单位</string>
+    <string name="fuzeren">负责人</string>
+    <string name="fuzeren_phone">负责人电话</string>
+    <string name="people_count">总人口数</string>
+    <string name="poor_family_count">贫困户数</string>
+    <!-- 土地面积 -->
+    <string name="tudi_info">土地信息</string>
+    <string name="gengdi_aear">土地面积(亩)</string>
+    <string name="tghl_aear">退耕还林(亩)</string>
+    <string name="linguo_aear">林果面积(亩)</string>
+    <string name="lindi_aear">林地面积(亩)</string>
+    <string name="yxgg_aear">有效灌溉(亩)</string>
+    <!-- 人口信息 -->
+    <string name="renkou_info">人口信息</string>
+    <string name="hushu_count">总户数(户)</string>
+    <string name="zrcs_count">自然村数(个)</string>
+    <string name="dbhs_count">低保户数(户)</string>
+    <string name="wbhs_count">五保户数(户)</string>
+    <string name="people_counts">总人口数(人)</string>
+    <string name="dibao_people_count">低保人数(人)</string>
+    <string name="wb_people_count_">五保人数(人)</string>
+    <string name="canji_count">残疾人数(人)</string>
+    <string name="laodongli_count">劳动力数(人)</string>
+    <string name="wcwg_count">外出务工(户)</string>
+    <!-- 社会保障信息 -->
+    <string name="xnh_people_num">参加新型农村合作医疗人数(人)</string>
+    <string name="czzgylbx_people_num">参加城镇职工基本养老保险人数(人)</string>
+    <string name="czjmylbx_people_num">参加城乡居民基本养老保险人数(人)</string>
+    <!-- 村级道路 -->
+    <string name="sfsn_rode">到乡镇是否通沥青(水泥)路</string>
+    <string name="sft_bus">是否通客运班车</string>
+    <!-- 饮水安全 -->
+    <string name="no_ysaq">未实现饮水安全户数(户)</string>
+    <string name="yskn_family">饮水困难户数(户)</string>
+    <!-- 危房改造 -->
+    <string name="wfgz">危房户数(户)</string>
+    <!-- 特色产业增收 -->
+    <string name="hezuoshe_count">农民专业合作社个数(个)</string>
+    <string name="canjia_hezuoshe_count">参加农民专业合作社贫困户数(户)</string>
+    <!-- 卫生和计划生育 -->
+    <string name="ws_house">卫生室个数(个)</string>
+    <string name="ws_gonggong_wc_num">公共卫生厕所个数(个)</string>
+    <string name="ws_zhiyeyishi_num">执业(助理)医师数(个)</string>
+    <string name="ws_lajiduifang">垃圾集中堆放点个数(个)</string>
+    <!-- 文化建设 -->
+    <string name="tushushi">行政村文化(图书)室个数(个)</string>
+    <!-- 贫困村信息化 -->
+    <string name="tkd_family_num">通宽带户数(个)</string>
+    <string name="ysjsw_family_num">用手机上网的户数(个)</string>
+    <string name="ytd_tkd_family_count">已通电自然村(20户以上)中通宽带的村数(个)</string>
+    <string name="tkd_small_school_num">通宽带的村小学个数(个)</string>
+    <string name="xzc_xxy_num">行政村信息员</string>
+    <string name="shbz_info">社会保障信息</string>
+    <string name="cjdl_info">村级道路</string>
+    <string name="ysaq_info">饮水安全</string>
+    <string name="wfgz_info">危房改造</string>
+    <string name="tscyzs_info">特色产业增收</string>
+    <string name="ws_and_jhsy_info">卫生和计划生育</string>
+    <string name="whjs_info">文化建设</string>
+    <string name="pkcxxh_info">贫困村信息化</string>
+
+    <!-- 家庭成员 -->
+    <string name="people_name">姓名</string>
+    <string name="people_sex">性别</string>
+    <string name="people_date">出生日期</string>
+    <string name="people_yhzgn">与户主关系</string>
+    <string name="people_card_num">身份证号</string>
+    <string name="people_ifxnh">是否参加城乡居民医疗保险</string>
+    <string name="people_ifxnbx">是否参加城乡居民养老保险</string>
+    <string name="people_ifjbbx">是否参加城镇职工养老保险</string>
+    <string name="people_iftrained">是否愿意培训</string>
+    <string name="people_health">健康状况</string>
+    <string name="people_deformityno">残疾证号</string>
+    <string name="people_spiritno">精神病证件号</string>
+    <string name="people_retardedno">智障证件号</string>
+    <string name="people_ifoutcontactname">是否失联</string>
+    <string name="people_outcontacttime">失联时间</string>
+    <string name="people_ifecologyname">是否是生态环境引起</string>
+    <string name="people_ifdeathname">是否死亡</string>
+    <string name="people_ifdeathtime">死亡时间</string>
+    <string name="people_hunqian_time">婚迁时间</string>
+    <string name="people_hunqian">婚迁</string>
+    <string name="account_print">台账</string>
+    <string name="photo">照片</string>
+
+    <!-- 通知公告 -->
+    <string name="inbox">收件箱</string>
+    <string name="outbox">发件箱</string>
+
+    <!-- 攻坚脱贫项目 -->
+    <string name="bx">不限</string>
+    <string name="filter">筛选</string>
+    <string name="repeat">重置</string>
+    <string name="submit">提交</string>
+    <string name="xmjd">项目进度</string>
+    <string name="xmjd_ylx">已立项</string>
+    <string name="xmjd_ybb">已报备</string>
+    <string name="xmjd_yjg">已竣工</string>
+    <string name="xmjd_yzb">已招标</string>
+    <string name="xmjd_yys">已验收</string>
+    <string name="xmjd_ykg">已开工</string>
+    <string name="xmjd_spz">审批中</string>
+    <string name="xmzt">项目状态</string>
+    <string name="xmzt_tq">提前</string>
+    <string name="xmzt_zc">正常</string>
+    <string name="xmzt_zh">滞后</string>
+    <string name="xm_time">项目时间</string>
+    <string name="xm_time_start">开始时间</string>
+    <string name="xm_time_end">结束时间</string>
+    <string name="xm_time_jiezhi">截止时间</string>
+    <string name="no_xm_time">时间不限</string>
+    <string name="yzpz">养殖品种</string>
+    <string name="yzpz_ji">鸡</string>
+    <string name="yzpz_ya">鸭</string>
+    <string name="yzpz_niu">牛</string>
+    <string name="yzpz_zhu">猪</string>
+    <string name="yzpz_yangshu">杨树</string>
+    <string name="ffjd">发放季度</string>
+    <string name="ffjd_cjxq">春季学期</string>
+    <string name="ffjd_qjxq">秋季学期</string>
+    <string name="fflb">发放类别</string>
+    <string name="fflb_xqjyzz">学前教育资助</string>
+    <string name="fflb_gzzz">高中资助</string>
+    <string name="fflb_gxzz">高校资助</string>
+    <string name="fflb_cz_yjjz">义教救助(初中)</string>
+    <string name="fflb_xx_yjjz">义教救助(小学)</string>
+    <string name="fflb_zzzz">中职资助</string>
+    <string name="qylx">企业类型</string>
+    <string name="qylx_syqy">私营企业</string>
+    <string name="qylx_gth">个体户</string>
+    <string name="spjd">审批进度</string>
+    <string name="spjd_tjqy">推荐企业</string>
+    <string name="spjd_shz">审核中</string>
+    <string name="spjd_shtg">审核通过</string>
+    <string name="spjd_yqxy">已签协议</string>
+    <string name="pxlb">培训类别</string>
+    <string name="pxlb_cs">厨师</string>
+    <string name="pxlb_dh">电焊</string>
+    <string name="pxlb_qx">汽修</string>
+    <string name="pxlb_qt">其他</string>
+    <string name="pxlb_ys">月嫂</string>
+    <string name="pxlb_hl">护理</string>
+    <string name="pxlb_bj">保洁</string>
+    <string name="gzyy">改造原因</string>
+    <string name="gzyy_a">a级危房</string>
+    <string name="gzyy_b">b级危房</string>
+    <string name="gzyy_c">c级危房</string>
+    <string name="gzyy_d">d级危房</string>
+    <string name="gzyy_qt">其他原因</string>
+    <string name="chzt">参合状态</string>
+    <string name="chzt_w">未参合</string>
+    <string name="chzt_zzjfch">自主缴费参合</string>
+    <string name="chzt_zfbzch">政府补助参合</string>
+    <string name="xmlx">项目类型</string>
+    <string name="xmlx_xcdl">乡村道路</string>
+    <string name="xmlx_rxys">人蓄用水</string>
+    <string name="xmlx_ntsl">农田水利</string>
+    <string name="xmlx_fpbq">扶贫搬迁</string>
+    <string name="xmlx_dhzs">到户增收</string>
+    <string name="xmlx_cyhxm">产业化项目</string>
+    <string name="xmlx_syjnpx">雨露计划-农村实用技能培训</string>
+    <string name="xmlx_zyjnpx">雨露计划-职业技能培训</string>
+    <string name="xmlx_qtpx">雨露计划-其他培训</string>
+    <string name="xmlx_qt">其他</string>
+    <string name="gzfs">改造方式</string>
+    <string name="gzfs_xsjg">修缮加固</string>
+    <string name="gzfs_yzfj">原址翻建</string>
+    <string name="gzfs_fjzj">异地非集中建</string>
+    <string name="gzfs_jzxj">异地相对集中新建</string>
+    <string name="gzfs_fwzh">房屋置换</string>
+    <string name="gzfs_wfxj">无房户新建</string>
+    <string name="xgznbm">相关职能部门</string>
+    <string name="xgznbm_sl">水利局</string>
+    <string name="xgznbm_jiaotong">交通局</string>
+    <string name="xgznbm_nw">农委</string>
+    <string name="xgznbm_ly">林业局</string>
+    <string name="xgznbm_mz">民政局</string>
+    <string name="xgznbm_jiaoti">教体局</string>
+    <string name="xgznbm_rl">人劳局</string>
+    <string name="xgznbm_zj">住建局</string>
+    <string name="xgznbm_wjw">卫计委</string>
+    <string name="xgznbm_xcb">新村办</string>
+    <string name="xgznbm_fpb">扶贫办</string>
+    <string name="xgznbm_cl">残联</string>
+    <string name="xgznbm_fl">妇联</string>
+
+    <!-- 项目title -->
+    <string name="title_xmxx">项目信息</string>
+    <string name="xmxx_ffnf">发放年份</string>
+    <string name="xmxx_ffjd">发放季度</string>
+    <string name="xmxx_fflb">发放类别</string>
+    <string name="xmxx_sjffsj">实际发放时间</string>
+    <string name="xmxx_remark">备注</string>
+    <string name="xmxx_company">企业信息</string>
+    <string name="xmxx_company_lx">企业类型</string>
+    <string name="xmxx_company_address">企业地址</string>
+    <string name="xmxx_dkyt">贷款用途</string>
+    <string name="xmxx_dkje">贷款金额</string>
+    <string name="xmxx_dkqx">贷款期限(月)</string>
+    <string name="xmxx_spjd">审批进度</string>
+    <string name="xmxx_fuzeren">企业负责人</string>
+    <string name="xmxx_phone">负责人联系方式</string>
+    <string name="title_ffry">发放人员</string>
+    <string name="title_jyry">就业人员</string>
+    <string name="title_jypx">就业培训</string>
+    <string name="title_wfgz">危房改造</string>
+    <string name="title_zjgl">资金管理</string>
+    <string name="title_bfqk">拨付情况</string>
+    <string name="title_pxry">培训人员</string>
+    <string name="title_dllh">道路绿化</string>
+    <string name="title_lxjj">林下经济</string>
+    <!-- edittext提示 -->
+    <string name="edt_hini_projectname">请输入查询项目名称</string>
+    <string name="edt_hini_helppeople">请输入帮扶责任人姓名</string>
+    <string name="edt_hini_helpconpany">请输入帮扶单位名称</string>
+    <string name="edt_hini_personname">请输入查询姓名</string>
+    <string name="edt_hini_housename">请输入户主名称</string>
+    <string name="edt_hini_help_deuty_people">请输入帮扶责任人姓名</string>
+    <string name="edt_hini_poor_personname">请输入贫困人姓名</string>
+    <string name="edt_hini_trainname">请输入查询培训名称</string>
+    <string name="edt_hini_companyname">请输入查询企业名称</string>
+
+    <!-- 致贫原因 -->
+    <string name="case_none">无(%)</string>
+    <string name="case_bing">因病(%)</string>
+    <string name="case_xue">因学(%)</string>
+    <string name="case_other">其他(%)</string>
+    <string name="case_que">缺技术(%)</string>
+    <string name="case_can">因残(%)</string>
+    <string name="case_nengli">无劳动能力(%)</string>
+    <string name="case_money">缺资金(%)</string>
+
+    <!-- 脱贫情况 -->
+    <string name="no_poor">未脱贫</string>
+    <string name="yes_poor">已脱贫</string>
+    <string name="yu_poor">预脱贫</string>
+    <string name="fan_poor">返贫</string>
+    <string name="zhuxiao">注销</string>
+
+    <!-- 贫困户数 -->
+    <string name="one">0~20</string>
+    <string name="two">20~40</string>
+    <string name="three">40~60</string>
+    <string name="four">60~80</string>
+    <string name="five">80~100</string>
+    <string name="six">100~以上</string>
+    <!-- 进度图例 -->
+    <string name="num_lixiang">立项数</string>
+    <string name="num_kaigong">开工数</string>
+    <string name="num_wangong">完工数</string>
+    <string name="totle">计划投资总金额（万元）</string>
+    <string name="sqbf">申请拨付金额（万元）</string>
+    <string name="sjbf">实际拨付金额（万元）</string>
+    <string name="zaixiaodiqu">在校地区</string>
+    <string name="tab_gongzi">工资性收入</string>
+    <string name="tab_shengchan">生产经营性收入</string>
+    <string name="tab_caichan">财产性收入</string>
+    <string name="tab_jihuashengyu">计划生育金</string>
+    <string name="tab_dibao">低保</string>
+    <string name="tab_wubao">五保</string>
+    <string name="tab_yanglao">养老保险</string>
+    <string name="tab_shengtai">生态补贴</string>
+
+</resources>

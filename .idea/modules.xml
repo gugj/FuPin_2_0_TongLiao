@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ErWeiMaSaoMiao/ErWeiMaSaoMiao.iml" filepath="$PROJECT_DIR$/ErWeiMaSaoMiao/ErWeiMaSaoMiao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FuPin_2_0_TongLiao.iml" filepath="$PROJECT_DIR$/FuPin_2_0_TongLiao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fupin_2_0/fupin_2_0.iml" filepath="$PROJECT_DIR$/fupin_2_0/fupin_2_0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gridview_master_listview/gridview_master_listview.iml" filepath="$PROJECT_DIR$/gridview_master_listview/gridview_master_listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hellochartlibary/hellochartlibary.iml" filepath="$PROJECT_DIR$/hellochartlibary/hellochartlibary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_library_baidumap/my_library_baidumap.iml" filepath="$PROJECT_DIR$/my_library_baidumap/my_library_baidumap.iml" />
+    </modules>
+  </component>
+</project>

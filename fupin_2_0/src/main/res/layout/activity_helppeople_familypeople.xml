@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/top_title_strues"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title_toolbar" />
+
+    <ListView
+        android:id="@id/lv_poor"
+        style="@style/job_listview"
+        android:divider="@drawable/driver"
+        android:dividerHeight="0.5dp"
+        android:headerDividersEnabled="false" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 贫困户 -->
+    <string-array name="tab_family_title">
+        <item>@string/base</item>
+        <item>@string/famliy_people</item>
+        <item>@string/account_print</item>
+        <item>@string/photo</item>
+        <item>@string/bangfujilu</item>
+    </string-array>
+    <!-- 贫困村 -->
+    <string-array name="tab_village_title">
+        <item>@string/base</item>
+        <item>@string/account_print</item>
+        <item>@string/photo</item>
+        <item>@string/bangfujilu</item>
+    </string-array>
+
+    <!-- 公告栏 -->
+    <string-array name="notic_board_title">
+        <item>@string/inbox</item>
+        <item>@string/outbox</item>
+    </string-array>
+
+    <!-- 项目进度  筛选条件 -->
+    <string-array name="xmjd">
+        <item>@string/bx</item>
+        <item>@string/xmjd_spz</item>
+        <item>@string/xmjd_ybb</item>
+        <item>@string/xmjd_yjg</item>
+        <item>@string/xmjd_ykg</item>
+        <item>@string/xmjd_ylx</item>
+        <item>@string/xmjd_yys</item>
+        <item>@string/xmjd_yzb</item>
+    </string-array>
+    <!-- 改造方式  筛选条件 -->
+    <string-array name="gzfs">
+        <item>@string/bx</item>
+        <item>@string/gzfs_xsjg</item>
+        <item>@string/gzfs_yzfj</item>
+        <item>@string/gzfs_fjzj</item>
+        <item>@string/gzfs_jzxj</item>
+        <item>@string/gzfs_fwzh</item>
+        <item>@string/gzfs_wfxj</item>
+    </string-array>
+    <!-- 项目状态  筛选条件 -->
+    <string-array name="xmzt">
+        <item>@string/bx</item>
+        <item>@string/xmzt_tq</item>
+        <item>@string/xmzt_zc</item>
+        <item>@string/xmzt_zh</item>
+    </string-array>
+
+    <!-- 企业类型  筛选条件 -->
+    <string-array name="qylx">
+        <item>@string/bx</item>
+        <item>@string/qylx_syqy</item>
+        <item>@string/qylx_gth</item>
+    </string-array>
+
+    <!-- 审批进度  筛选条件 -->
+    <string-array name="spjd">
+        <item>@string/bx</item>
+        <item>@string/spjd_tjqy</item>
+        <item>@string/spjd_shz</item>
+        <item>@string/spjd_shtg</item>
+        <item>@string/spjd_yqxy</item>
+    </string-array>
+
+    <!-- 养殖品种  筛选条件 -->
+    <string-array name="yzpz">
+        <item>@string/bx</item>
+        <item>@string/yzpz_ji</item>
+        <item>@string/yzpz_ya</item>
+        <item>@string/yzpz_niu</item>
+        <item>@string/yzpz_zhu</item>
+        <item>@string/yzpz_yangshu</item>
+    </string-array>
+
+    <!-- 发放类别  筛选条件 -->
+    <string-array name="fflb">
+        <item>@string/bx</item>
+        <item>@string/fflb_xqjyzz</item>
+        <item>@string/fflb_gzzz</item>
+        <item>@string/fflb_gxzz</item>
+        <item>@string/fflb_cz_yjjz</item>
+        <item>@string/fflb_xx_yjjz</item>
+        <item>@string/fflb_zzzz</item>
+    </string-array>
+
+    <!-- 培训类别  筛选条件 -->
+    <string-array name="pxlb">
+        <item>@string/bx</item>
+        <item>@string/pxlb_cs</item>
+        <item>@string/pxlb_dh</item>
+        <item>@string/pxlb_qt</item>
+        <item>@string/pxlb_qx</item>
+    </string-array>
+
+    <!-- 妇联培训类别  筛选条件 -->
+    <string-array name="fl_pxlb">
+        <item>@string/bx</item>
+        <item>@string/pxlb_ys</item>
+        <item>@string/pxlb_hl</item>
+        <item>@string/pxlb_bj</item>
+    </string-array>
+
+    <!-- 改造原因  筛选条件 -->
+    <string-array name="gzyy">
+        <item>@string/bx</item>
+        <item>@string/gzyy_a</item>
+        <item>@string/gzyy_b</item>
+        <item>@string/gzyy_c</item>
+        <item>@string/gzyy_d</item>
+        <item>@string/gzyy_qt</item>
+    </string-array>
+
+    <!-- 相关职能部门  筛选条件 -->
+    <string-array name="xgznbm">
+        <item>@string/bx</item>
+        <item>@string/xgznbm_sl</item>
+        <item>@string/xgznbm_jiaotong</item>
+        <item>@string/xgznbm_nw</item>
+        <item>@string/xgznbm_ly</item>
+        <item>@string/xgznbm_mz</item>
+        <item>@string/xgznbm_jiaoti</item>
+        <item>@string/xgznbm_rl</item>
+        <item>@string/xgznbm_zj</item>
+        <item>@string/xgznbm_wjw</item>
+        <item>@string/xgznbm_xcb</item>
+        <item>@string/xgznbm_fpb</item>
+        <item>@string/xgznbm_cl</item>
+        <item>@string/xgznbm_fl</item>
+    </string-array>
+
+    <!-- 参合状态  筛选条件 -->
+    <string-array name="chzt">
+        <item>@string/bx</item>
+        <item>@string/chzt_w</item>
+        <item>@string/chzt_zzjfch</item>
+        <item>@string/chzt_zfbzch</item>
+    </string-array>
+
+    <!-- 项目类型  筛选条件 -->
+    <string-array name="xmlx">
+        <item>@string/bx</item>
+        <item>@string/xmlx_xcdl</item>
+        <item>@string/xmlx_rxys</item>
+        <item>@string/xmlx_ntsl</item>
+        <item>@string/xmlx_fpbq</item>
+        <item>@string/xmlx_dhzs</item>
+        <item>@string/xmlx_cyhxm</item>
+        <item>@string/xmlx_syjnpx</item>
+        <item>@string/xmlx_zyjnpx</item>
+        <item>@string/xmlx_qtpx</item>
+        <item>@string/xmlx_qt</item>
+    </string-array>
+
+    <!-- 发放进度  筛选条件 -->
+    <string-array name="ffjd">
+        <item>@string/bx</item>
+        <item>@string/ffjd_cjxq</item>
+        <item>@string/ffjd_qjxq</item>
+    </string-array>
+    <!-- 教体局项目 -->
+    <string-array name="jiaotiju_title">
+        <item>@string/title_xmxx</item>
+        <item>@string/title_ffry</item>
+    </string-array>
+
+    <!-- 教体局项目 -->
+    <string-array name="nongwei_title">
+        <item>@string/title_xmxx</item>
+        <item>@string/title_jyry</item>
+    </string-array>
+    <!-- 民政局 -->
+   <string-array name="minzheng_title">
+        <item>@string/title_xmxx</item>
+        <item>@string/title_ffry</item>
+    </string-array>
+    <!-- 残联项目 -->
+    <string-array name="canlian_title">
+        <item>@string/title_wfgz</item>
+        <item>@string/title_jypx</item>
+    </string-array>
+
+    <!-- 妇联项目 -->
+    <string-array name="fulian_title">
+        <item>@string/title_xmxx</item>
+        <item>@string/title_pxry</item>
+    </string-array>
+
+    <!-- 财政局项目 -->
+    <string-array name="caizhengju_title">
+        <item>@string/title_xmxx</item>
+        <item>@string/title_bfqk</item>
+    </string-array>
+
+    <!-- 人劳局 -->
+    <string-array name="renlaoju_title">
+        <item>@string/title_xmxx</item>
+        <item>@string/title_pxry</item>
+    </string-array>
+
+    <!-- 林业局 -->
+    <string-array name="linyeju_title">
+        <item>@string/title_dllh</item>
+        <item>@string/title_lxjj</item>
+    </string-array>
+	<!-- 脱贫情况 -->
+    <string-array name="no_poor_state">
+        <item>@string/no_poor</item>
+        <item>@string/yes_poor</item>
+        <item>@string/yu_poor</item>
+        <item>@string/fan_poor</item>
+        <item>@string/zhuxiao</item>
+    </string-array>
+    <!-- 贫困户数 -->
+    <string-array name="no_poor_num">
+        <item>@string/one</item>
+        <item>@string/two</item>
+        <item>@string/three</item>
+        <item>@string/four</item>
+        <item>@string/five</item>
+        <item>@string/six</item>
+    </string-array>
+</resources>

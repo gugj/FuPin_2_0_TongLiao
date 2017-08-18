@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common -->
+    <item name="id_drawerlayout" type="id"/>
+    <item name="ll_navibar" type="id"/>
+
+    <!-- EditText -->
+    <item name="edt_username" type="id"/>
+    <item name="edt_password" type="id"/>
+
+    <!-- TextView -->
+    <item name="tv_city" type="id" />
+    <item name="tv_mine" type="id"/>
+    <item name="tv_title" type="id"/>
+    <item name="tv_name" type="id"/>
+    <item name="tv_num" type="id"/>
+    <item name="tv_card_num" type="id"/>
+    <item name="tv_plan" type="id"/>
+    <item name="tv_address" type="id"/>
+    <item name="tv_poor" type="id"/>
+    <item name="tv_phone" type="id"/>
+    <item name="tv_cause" type="id"/>
+    <item name="tv_zeren_people" type="id"/>
+    <item name="tv_train_num" type="id"/>
+    <item name="tv_income" type="id"/>
+    <item name="tv_jobs" type="id"/>
+    <item name="tv_sex" type="id"/>
+    <item name="tv_date" type="id"/>
+    <item name="tv_yhzgx" type="id"/>
+    <item name="tv_age" type="id"/>
+    <item name="tv_people_count" type="id" />
+    <item name="tv_poor_count" type="id" />
+    <item name="tv_help_company" type="id" />
+    <item name="tv_poor_num" type="id" />
+    <item name="tv_zhiwei" type="id" />
+    <item name="tv_company" type="id" />
+    <item name="tv_family_count" type="id" />
+    <item name="tv_msg_title" type="id" />
+    <item name="tv_search" type="id" />
+    <item name="tv_key" type="id" />
+    <item name="tv_value" type="id" />
+    <item name="tv_filter" type="id" />
+    <item name="tv_lx" type="id" />
+    <item name="tv_money" type="id" />
+    <item name="tv_jindu" type="id" />
+    <item name="tv_time" type="id" />
+    <item name="tv_time_start" type="id" />
+    <item name="tv_time_end" type="id" />
+    <item name="tv_setting" type="id" />
+    <item name="tv_ver" type="id" />
+    <item name="tv_size" type="id" />
+    <item name="tv_notic" type="id" />
+    <item name="tv_upload" type="id"/>
+    <!-- 内容 -->
+    <item name="tv_content" type="id" /> 
+    <!-- 学历 -->
+    <item name="tv_xl" type="id"/>
+    <item name="tv_noresult" type="id" />
+    <item name="tv_photo" type="id"/>
+    <item name="tv_cream" type="id" />
+    <item name="tv_menu" type="id" />
+
+    <!-- ImageView -->
+    <item name="iv_menu" type="id"/>
+    <item name="iv_add" type="id"/>
+    <item name="iv_icon" type="id"/>
+    <item name="iv_delet" type="id"/>
+    <item name="iv_user_head" type="id"/>
+    <item name="iv_photo" type="id"/>
+    <item name="iv_cream" type="id" />
+
+    <!-- RelativeLayout -->
+    <item name="rl_kjcd" type="id"/>
+    <item name="rl" type="id"/>
+    <item name="rl_strues" type="id"/>
+    <item name="rl_time" type="id" />
+    <item name="rl_time_start" type="id" />
+    <item name="rl_time_end" type="id" />
+    <item name="rl_ver" type="id" />
+    <item name="rl_clear" type="id" />
+
+    <!-- LinearLayout -->
+    <item name="edit_ll" type="id"/>
+    <item name="ll" type="id"/>
+
+    <!-- GridView -->
+    <item name="gv_menu" type="id"/>
+    <item name="gv_helpingsubject" type="id"/>
+    <item name="gv_photo" type="id"/>
+    <item name="gv_notic" type="id"/>
+
+    <!-- ListView -->
+    <item name="refresh_poorhouse" type="id"/>
+    <item name="lv_poor" type="id"/>
+    <item name="listview" type="id" />
+    <item name="search_result" type="id" />
+    <item name="letter_list" type="id" />
+
+    <!-- Button -->
+    <item name="btn_login" type="id"/>
+    <item name="btn_sure" type="id"/>
+
+    <!-- CheckBox -->
+    <item name="cb_man" type="id"/>
+    <item name="cb_woman" type="id"/>
+    <item name="cb_job" type="id"/>
+    <item name="cb_train" type="id"/>
+
+</resources>

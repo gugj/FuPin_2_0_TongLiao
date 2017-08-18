@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_hlistview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    android:minHeight="30dip"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/item_titlev"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/margin_0.5"
+        android:layout_marginRight="@dimen/margin_0.5"
+        android:layout_weight="2"
+        android:background="@color/white"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+    <com.roch.fupin.view.JiaoTiJuTableScrollView
+        android:id="@+id/item_chscroll_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@color/black"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/item_datav1"
+                style="@style/yx_textview_style"
+                android:layout_width="@dimen/layout_150" />
+
+            <TextView
+                android:id="@+id/item_datav2"
+                style="@style/yx_textview_style"
+                android:layout_width="@dimen/layout_150" />
+
+            <TextView
+                android:id="@+id/item_datav3"
+                style="@style/yx_textview_style"
+                android:layout_width="@dimen/layout_150" />
+
+            <TextView
+                android:id="@+id/item_datav4"
+                style="@style/yx_textview_style"
+                android:layout_width="@dimen/layout_150" />
+
+            <TextView
+                android:id="@+id/item_datav5"
+                style="@style/yx_textview_style"
+                android:layout_width="@dimen/layout_150" />
+
+            <TextView
+                android:id="@+id/item_datav6"
+                style="@style/yx_textview_style"
+                android:layout_width="@dimen/layout_150" />
+
+            <TextView
+                android:id="@+id/item_datav7"
+                style="@style/yx_textview_style"
+                android:layout_width="@dimen/layout_160" />
+
+            <TextView
+                android:id="@+id/item_datav8"
+                style="@style/yx_textview_style"
+                android:layout_width="@dimen/layout_160" />
+
+            <TextView
+                android:id="@+id/item_datav9"
+                style="@style/yx_textview_style"
+                android:layout_width="@dimen/layout_160" />
+
+            <TextView
+                android:id="@+id/item_datav10"
+                style="@style/yx_textview_style"
+                android:layout_width="@dimen/layout_160" />
+
+            <TextView
+                android:id="@+id/item_datav11"
+                style="@style/yx_textview_style"
+                android:layout_width="@dimen/layout_160" />
+
+            <TextView
+                android:id="@+id/item_datav12"
+                style="@style/yx_textview_style"
+                android:layout_width="@dimen/layout_160"
+                android:layout_marginRight="@dimen/margin_0.5" />
+        </LinearLayout>
+    </com.roch.fupin.view.JiaoTiJuTableScrollView>
+
+</LinearLayout>

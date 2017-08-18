@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10" >
+
+        <TextView
+            android:id="@id/tv_name"
+            style="@style/listview_item_style"
+            android:layout_centerVertical="true"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_15" />
+
+        <CheckBox
+            android:id="@id/cb_man"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/layout_18"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_toRightOf="@id/tv_name"
+            android:background="@null"
+            android:button="@drawable/checkbox_selector_man"
+            android:checked="false"
+            android:focusable="false"
+            android:paddingLeft="@dimen/padding_10"
+            android:visibility="visible" />
+
+        <CheckBox
+            android:id="@id/cb_woman"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/layout_18"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_toRightOf="@id/cb_man"
+            android:button="@drawable/checkbox_selector_woman"
+            android:checked="false"
+            android:focusable="false"
+            android:paddingLeft="@dimen/padding_10"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin_10" >
+
+        <TextView
+            android:id="@id/tv_people_count"
+            style="@style/text_style"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="大专及以上"
+            android:textColor="@color/gray_878787"
+            android:textSize="@dimen/textSize_15" />
+
+        <TextView
+            android:id="@id/tv_address"
+            style="@style/text_style"
+            android:layout_width="0dp"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_weight="2"
+            android:textColor="@color/gray_878787"
+            android:textSize="@dimen/textSize_15" />
+    </LinearLayout>
+
+</LinearLayout>

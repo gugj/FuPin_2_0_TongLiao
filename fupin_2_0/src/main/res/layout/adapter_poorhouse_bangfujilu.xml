@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/Title_Padding_10">
+    
+    <TextView 
+        android:id="@+id/tv_bfjl_helptitle"
+        style="@style/text_style"
+        android:text="王铁良测试帮扶记录"/>
+    
+    <TextView 
+        android:id="@+id/tv_bfjl_helpdate"
+        style="@style/text_style"
+        
+        android:layout_alignParentRight="true"
+        android:text="2016-08-16 00:00:00"/>
+    
+</RelativeLayout>
